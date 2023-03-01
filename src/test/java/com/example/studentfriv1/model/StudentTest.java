@@ -53,5 +53,9 @@ class StudentTest {
         assertEquals(true, studentRepository.findByName("Vibbe").isPresent());
     }
 
+    @Test
+    void testStudentByNameExistXX() {
+        assertEquals(true, studentRepository.findByName("Vibbe").isPresent());
+    }
 
 }
