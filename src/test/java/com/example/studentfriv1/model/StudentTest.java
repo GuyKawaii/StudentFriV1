@@ -33,7 +33,7 @@ class StudentTest {
             Student s1 = std.get();
             assertEquals(1, s1.getId());
         } else {
-            assertEquals("det gik skidt", "");
+            assertEquals("det gik skidt xx", "");
         }
     }
 
@@ -53,9 +53,5 @@ class StudentTest {
         assertEquals(true, studentRepository.findByName("Vibbe").isPresent());
     }
 
-    @Test
-    void testStudentByNameExistXX() {
-        assertEquals(true, studentRepository.findByName("Vibbe").isPresent());
-    }
 
 }
