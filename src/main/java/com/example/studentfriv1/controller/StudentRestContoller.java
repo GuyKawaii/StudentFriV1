@@ -24,13 +24,11 @@ public class StudentRestContoller {
 
     @GetMapping("/students2")
     public List<Student> students2() {
-
         return studentRepository.findAll();
     }
 
     @GetMapping("/")
     public List<Student> studentsroot() {
-
         return studentRepository.findAll();
     }
 
