@@ -32,6 +32,7 @@ public class StudentRestContoller {
         return studentRepository.findAll();
     }
 
+    // create a new student
     @GetMapping("/teststudent")
     public List<Student> teststudent() {
         Student std = new Student();
